@@ -1,0 +1,21 @@
+Dictionaries :
+
+*Dictionaries are used to store data values in key:value pairs.
+*Do not allow duplicates.
+*Ordered and changeable
+*Enclosed within curly brackets and items are separated by comma(,). 
+*Values can be accessed and updated using square brackets[].
+
+Example :
+dict1={ "naime":"abcd", "dept":"AI&DS", "year":2023}
+
+>>>print(dict1.keys())
+   dict_keys(['name', 'dept', 'year'])
+>>>print(dict1.values())
+   dict_values(['abcd', 'AI&DS', 2023])
+>>>print(dict1["name"])
+   abcd
+>>>print(dict1["dept"])
+   AI&DS
+>>>print(dict1["year"])
+   2023
